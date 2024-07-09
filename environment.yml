@@ -1,0 +1,12 @@
+name: mhc2-predictions-workflow
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - pip
+  - setuptools
+  - git
+  - pip:
+    - -r requirements.txt
